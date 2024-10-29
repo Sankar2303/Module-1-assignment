@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+     <style>
+        .navbar-header
+        {
+            color:rgba(37, 142, 254, 0.925);
+            font-weight:bolder;
+            font-size:50px;
+        }
+        .nav-link{
+            color:rgb(11,11,11);
+        }
+    .carousel img
+    {
+    width:100%;
+    height:500px;
+    }
+     
+    .margin
+    {
+        padding-left: 50px;
+    }
+    h3{
+        padding-top: 200px;
+        font-weight: bolder;
+        font-size: 50px;
+        color: rgb(9, 171, 240);
+    }
+    .btn1
+    {
+        border-radius: 50px;
+        background-color: rgb(232, 247, 21);
+        padding:15px 55px;
+        font-size:20px;
+        margin-top:20px;
+    }
+    </style>
+    
+    </head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+         <div class="container">
+            <span class="navbar-header">ALL IN ONE<br>SEEDY BASKET</span>
+             <ul class="nav justify-content-end">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#aboutsec">About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#productsec">Products</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#featuresec">Features</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#contactus">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>  
+
+    <nav class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://t4.ftcdn.net/jpg/09/49/37/57/360_F_949375789_7AoWCZG5YIqmeJZfPYCG4pFWF3puHyVh.jpg" class="d-block w-100" alt="...">               
+                <div class="carousel-caption d-none d-md-block">
+                <h5>AGRICULTURAL PLANT SEEDS</h5>
+              </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="https://media.gettyimages.com/id/171159827/photo/sunflower-seed-oil.jpg?s=612x612&w=0&k=20&c=ZiQjkCcSVHqidxa5CBMw_g1Ge-75TR92dn7V5jhnD48=" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>NUTRI OIL SEEDS</h5>
+                   </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/micro-plants-growing-close-up-detailed-healthy-nutritions_1268-29339.jpg?t=st=1730199665~exp=1730203265~hmac=f90acd12f114b20ddc2ec73177e8dcfafa7f73db619b141ee3919e10c56fa543&w=826" class="d-block w-100" alt="...">
+                 <div class="carousel-caption d-none d-md-block">
+                 <h5>PLANT GROW UP SEEDS</h5>
+                </div>
+              </div>
+               
+               <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/tulip-field-keukenhof-flower-garden-lisse-netherlands-holland_155003-24783.jpg?t=st=1730199247~exp=1730202847~hmac=5c534a92a69845c2572577984168664a7eb128a9b4879697488e1b4ba7305428&w=826" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>FLOWER PLANT SEEDS</h5>
+                </div>
+              </div>
+
+               <div class="carousel-item">
+                <img src="https://img.freepik.com/premium-photo/nutswalnut-peanuts-almond-seeds_1189562-47212.jpg?w=900" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>NUTRIONAL NUTS AND SEEDS</h5>
+                </div>
+             </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </nav>
+
+        <div class="container bg-1" id="aboutsec">
+            <div class="row ">
+              <div class="col-md-6">
+                <img src="https://i.pinimg.com/564x/c8/8c/ea/c88cea776e870aee7b5a80f09140e959.jpg" class="img-responsive img-circle margin" style="float: left;; margin-top: 100px;" alt="" width="1110" height="600">
+              </div>
+              <div class="col-md-6">
+              <div class="margin" >
+                <h3 >Nutrition Seeds & Benifits</h3>
+                <p style="color: rgb(197, 250, 5);"> Nutrition is a critical part of health and development. Better nutrition is related to improved infant, child and maternal health, stronger immune systems, safer pregnancy and childbirth, lower risk of non-communicable diseases
+                  (such as diabetes and cardiovascular disease), and longevity. Nuts and seeds are good sources of protein, healthy fats, fibres, vitamins and minerals. Nuts and seeds regulate body weight as their fats are not fully absorbed and they regulate food intake.</p>
+                  <button type="button" class="btn1 btn-success" >Read More</button>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+    
+          <section class="Features" id="featuresec">
+            <div class="container py-5">
+              <div class="row py-5">
+                <div class="col-lg-5 m-auto text-center">
+                  <h1> Features</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit quia odio deserunt doloribus quo, in.</p>
+                </div>
+              </div>
+
+              <div class="row">
+               <div class="col-4">
+                <div class="card py-5 text-center">
+                  <div class="cardbody">
+                    <img src="https://i.pinimg.com/564x/07/b5/c2/07b5c2e6b81adfa4b51b77dc89293395.jpg" class="img-fluid" style="height: 150px; width: 250px;" alt="...">
+                    <h4 class="cardtitle">FOOD PLANT SEEDS</h4>
+                      <p class="card-text" >Food seeds are good sources of protein, healthy fats, fibres, vitamins and minerals.This containing a lot of carbohydrates varients sources of foods.</p>
+                      <a href="#" class="btn  btn-outline-success pt-2" style="border-radius: 50px; ">Read More</a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-4">
+                <div class="card py-5 text-center">
+                  <div class="cardbody">
+                    <img src="https://i.pinimg.com/736x/ae/7a/19/ae7a194e5cc502533e50f611de0a0488.jpg" class="img-fluid" style="height: 150px; width: 250px;" alt="...">
+                    <h4 class="cardtitle">CREEPER PLANT SEEDS</h4>
+                      <p class="card-text">Creepers, as the name suggests, are plants that creep on the ground.Its very fragile, long, thin stems  stand erect nor support all their weight.</p>
+                      <a href="#" class="btn btn-outline-success pt-2" style="border-radius: 50px; ">Read More</a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-4">
+                <div class="card py-5 text-center">
+                  <div class="cardbody">
+                    <img src="https://i.pinimg.com/564x/d2/43/27/d24327357e26594df5114df456398f61.jpg" class="img-fluid" style="height: 150px; width: 250px;" alt="...">
+                    <h4 class="cardtitle">FLOWER SEEDS</h4>
+                      <p class="card-text">The embryo inside the seed starts to grow into a seedling.Roots grow down to the plant in the ground & take up water,nutrients & store food.</p>
+                      <a href="#" class="btn btn-outline-success pt-2 " style="border-radius: 50px; ">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card py-5 text-center">
+                  <div class="cardbody">
+                    <img src="https://i.pinimg.com/564x/09/11/f2/0911f292d37394ce984eb6bed24a49d7.jpg" class="img-fluid" style="height: 150px; width: 250px;" alt="...">
+                    <h4 class="cardtitle">SMALL SEEDS</h4>
+                      <p class="card-text">while smaller seeds have a better chance for dispersal over a wide area, helping at least some seedlings survive.</p>
+                      <a href="#" class="btn btn-outline-success pt-2" style="border-radius: 50px; ">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card py-5 text-center">
+                  <div class="cardbody">
+                    <img src="https://i.pinimg.com/564x/d4/52/3a/d4523a887785a7bbb4ef6055fa8dd770.jpg" class="img-fluid" style="height: 150px; width: 250px;" alt="...">
+                    <h4 class="cardtitle">FRUITY PLANT SEEDS</h4>
+                      <p class="card-text">Fruits are seed-bearing structures formed from the ovaries of only flowering plants.A fruit is the soft, pulpy part of a plant.</p>
+                      <a href="#" class="btn btn-outline-success pt-2" style="border-radius: 50px; ">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card py-5 text-center">
+                  <div class="cardbody">
+                    <img src="https://i.pinimg.com/564x/40/72/d7/4072d7f1e223f5ead431fe4003e08cc8.jpg" class="img-fluid" style="height: 150px; width: 250px;" alt="...">
+                    <h4 class="cardtitle">VEGETABLE PLANT SEEDS</h4>
+                      <p class="card-text">Vegetables provide nutrients vital for health and maintenance of your body, such as vitamins A and C, fiber, folate, and potassium.</p>
+                      <a href="#" class="btn btn-outline-success pt-2" style="border-radius: 50px; ">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+            </div>
+          </section>
+        </section>
+        <section class="product" id="productsec">
+          <div class="container  py-5">
+            <div class="row py-5">
+              <div class="col m-auto text-start">
+                <h1>Products</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni atque ut, nulla quos nam perferendis repudiandae, assumenda rerum</p>
+              </div>
+                <div class="col text-end">
+                <div class="btn-group justify-content-end">
+                  <a href="#" class="btn btn-success active" aria-current="page">NUTRI NUTS</a>
+                  <a href="#" class="btn btn-outline-success ">FLOWER SEEDS</a>
+                  <a href="#" class="btn btn-outline-success ">FOODY SEEDS</a>
+                </div>
+                </div>
+                <div class="row ">
+                  <h2>Foody Nuts & seeds</h2>
+                  <div class="col-lg-3 text-center">
+                  <div class="card border-0 bg-light">
+                    <div class="card-body">
+                         <img src="https://media.istockphoto.com/id/464697722/photo/almonds-in-a-milk-bottle.jpg?s=612x612&w=0&k=20&c=43klZCRWcqbTjiUP0ptXGX8sr7Oq7jEV0mhnnYr0xA4=" class="img-fluid"style="height: 200px; width:200px ;" alt="...">
+                    </div>
+                    <h6>Almond seeds</h6>
+                    <strike> MRP:₹ 399</strike><p>1kg MRP:₹ 279 <br>(30% DISCOUNT)</p>
+                  </div>
+                  </div>
+
+                  <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light">
+                      <div class="card-body">
+                           <img src="https://img.freepik.com/premium-photo/green-pumpkin-seeds-napkin-dry-seeds-jar_762785-314731.jpg?w=826" class="img-fluid" style="height: 200px; width:200px ;" alt="...">
+                      </div>
+                      <h6>Pumpkin Seeds</h6>
+                      <strike> MRP:₹ 460</strike><p>1kg MRP:₹ 322<br>(30% DISCOUNT) </p>
+                    </div>
+                    </div>
+
+                    <div class="col-lg-3 text-center">
+                      <div class="card border-0 bg-light">
+                        <div class="card-body">
+                             <img src="https://img.freepik.com/premium-photo/luxuriously-packed-dates-elegant-boxes-spotlighted-as-premium-gifts-delicacies_946823-5074.jpg?w=996" class="img-fluid"style="height: 200px; width:200px ;" alt="...">
+                        </div>
+                        <h6>Nutri Dates</h6>
+                        <strike> MRP:₹ 240</strike><p>1kg MRP:₹ 399<br>(20% DISCOUNT) </p>
+                    </div>
+                      </div>
+
+                      <div class="col-lg-3 text-center">
+                        <div class="card border-0 bg-light">
+                          <div class="card-body">
+                          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRdWIHG0_ru3brRl6B8HLzHhHkelkr3kFSpLhMlQUMor4uZT_JawI553J4PfD0TittR195XU7vkSk320Z6KzCqLvPuRDQGnGP88GCWxIY6CsIuhFyGb9_AFVA&usqp=CAE" class="img-fluid"style="height: 200px; width:200px ;" alt="...">
+                          </div>
+                          <h6>White Cashew Nuts</h6>
+                          <strike> MRP:₹ 560</strike><p>1kg MRP:₹ 364<br>(35% DISCOUNT) </p>
+                        </div>
+                        </div><br><br>
+
+                        <div class="col-lg-3 text-center">
+                          <div class="card border-0 bg-light">
+                            <div class="card-body">
+                            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS8_oLsnHEb1vcS-QJD6WX3I_fRJE7BAq0mrW6cOCjO9urmz9w1CE9wV-N0PmzOWRUq4r1u8JDZWPkzkmJr69yrJfSbs5DYZDoPmqwwkdigAOCN4LdqQFDj&usqp=CAE" class="img-fluid" style="height: 200px; width:200px ;" alt="...">
+                            </div>
+                            <h6>Healthy Walnuts</h6>
+                            <strike> MRP:₹ 550</strike><p>1kg MRP:₹ 385<br>(30% DISCOUNT) </p>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-3 text-center">
+                            <div class="card border-0 bg-light">
+                              <div class="card-body">
+                              <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTNQq7UZPhENCcUgeGEy4sYAMADEf4KfXCtXlPHzjuB1Sukx_tW6Qv80nq8Mz6lnwuJhW9EQD_6Alm-X_fZB91cRBlybKdgwHSzG_tkUt-l&usqp=CAE" class="img-fluid" style="height: 200px; width:200px ;" alt="...">
+                              </div>
+                              <h6>Dry Hazelnuts</h6>
+                              <strike> MRP:₹ 999</strike><p>1kg MRP:₹ 399<br>(30% DISCOUNT) </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 text-center">
+                              <div class="card border-0 bg-light">
+                                <div class="card-body">
+                                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRrI0z89fxpo5lfDh0MeiVg0mn-iWZbxr0a_dHyNdV3HNUUZdv-R9UQSbBHwwpIcjNqJk0Pz5RkWNQLOMSIUCEx2zQP7XGCeYVhX0-5IrpVL5CFu0STCHqT&usqp=CAE" class="img-fluid" style="height: 200px; width:200px ;" alt="...">
+                                </div>
+                                <h6>Nutri Pistachios</h6>
+                                <strike> MRP:₹ 1100</strike><p>1kg MRP:₹ 880<br>(20% DISCOUNT) </p>
+                              </div>
+                        </div>
+
+                              <div class="col-lg-3 text-center">
+                                <div class="card border-0 bg-light">
+                                  <div class="card-body">
+                                  <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQOqX8udng6I0sRsbM7ppTIlWIo71YnnTt4MtQ5syeO7K3owH9FIj-zhAI3kKbqxJilNSIfIEyWH5VDPMlbmAjiEpSiQRId50YjbsPB-MeF&usqp=CAE" class="img-fluid" style="height: 200px; width:200px ;" alt="...">
+                                  </div>
+                                  <h6>Pecan Nuts</h6>
+                                  <strike> MRP:₹ 620</strike><p>1kg MRP:₹ 465<br>(25% DISCOUNT) </p>
+                                </div>
+                                </div>
+              </div>
+            </div>
+            </div>
+
+            <section>
+                <div class="container  py-5">
+                <div class="row py-5">
+                  <div class="col m-auto text-start">
+                    <h1>Ordering Details</h1>
+                    <p> A nut is a fruit consisting of a hard or tough nutshell protecting a kernel which is
+                       usually edible. In general usage and in a culinary sense, many dry seeds are called nuts.</p>
+                  </div> 
+                  <div class="product-container">
+                    <h4>Nutri Nut Products</h4>
+                     <img src="https://i.pinimg.com/564x/22/03/a3/2203a3d01b32f1f498d373f7c5041982.jpg " alt="Healthy & Nutriotional foods " class="product-image">
+                     <p> Pure Natural 100% organic food products are available in this site with best offer to order in dowline to fill your details. </p><br>
+
+                     <h4>Flower seed products</h4>
+                    <img src="https://i.pinimg.com/564x/74/05/2b/74052b95b572a8fe87edcf4c7602da33.jpg"alt="Flowering seeds for gardening & oil products" class="product-image"><br>
+                    <p> Flowers have multiple commercial uses. From using perfumes as star accents to becoming the centre of decorations, many people profit from them commercially. We have essential oils for body care, such as essential oils, creams, and serums. 
+                        The food industry also uses them to extract flavors and organic food colourants.</p>
+
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                  </div>
+                    </div>
+                    <div class="content text-center">
+                    <button type="button" class="btn1 btn-success">Send Message</button>
+                  </div>
+                  </div>
+                </div>
+              </section>
+  
+              <section class="Contact" id="contactus">
+              <div class="container py-5">
+                <div class="col-lg-5 m-auto text-center">
+                  <h1>Contact Us</h1>
+                  <p> </p>
+                </div>
+                  <div class="row ">
+                    <div class="mb-3">
+                      <input type="text" class="form-control" style="padding: 20px;" id="formGroupExampleInput" placeholder="Your name">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" style="padding: 20px;" id="formGroupExampleInput" placeholder="your email">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" style="padding: 20px;" id="formGroupExampleInput" placeholder="subject">
+                    </div>
+                    <div class="textarea mb-3">
+                      <textarea rows="5" cols="10" type="text" class="form-control" style="padding: 20px;" id="formGroupExampleInput"  placeholder="Message"> Message</textarea>
+                    </div>
+                  </div>
+                  <div class="content text-center">
+                  <button type="button" class="btn1 btn-success">Send Message</button>
+                </div>
+                </div>
+              </div>
+              </section>
+    
+  </body>
+  </html>
+    
+
+ </body>
+</html>
